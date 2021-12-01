@@ -350,7 +350,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="22">
       <Symbol>
-        <Component Name="ST00262_DB" />
+        <Component Name="ST000262_DB" />
         <Component Name="OPMODE" />
       </Symbol>
     </Access>
