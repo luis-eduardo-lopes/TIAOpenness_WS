@@ -181,7 +181,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="24">
       <Symbol>
-        <Component Name="ST00262_1_DB" />
+        <Component Name="ST000262_1_DB" />
         <Component Name="RT01" />
         <Component Name="GENERAL_ALARM" />
       </Symbol>
