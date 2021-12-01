@@ -421,7 +421,7 @@
   <Parts>
     <Access Scope="GlobalVariable" UId="21">
       <Symbol>
-        <Component Name="ST00325_DB" />
+        <Component Name="ST06660325_DB" />
         <Component Name="RT01" />
         <Component Name="DISPLAY_OCCUPIED" />
       </Symbol>
