@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V16" />
+  <DocumentInfo>
+    <Created>2021-12-01T20:36:04.7542193Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V16 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V16 Update 2</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V16 Update 4</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V16 Update 5</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V16 Update 5</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G110M, G120, G120C, G120D, G120P, G115D</DisplayName>
+        <DisplayVersion>V16 Update 5</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V16 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayVersion>V16 Update 4</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <InstanceOfName>PLTCPsendReceive_1</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v4">
+  <Section Name="Input">
+    <Member Name="Enable" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="UDTnumber" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="UDTversion" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="ExpectedUDTnumber" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="ExpectedUDTversion" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="UniqeID" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="Trigger" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="TriggerOnly" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="UDTtoClient" Datatype="Variant" Accessibility="Public" />
+  </Section>
+  <Section Name="Output">
+    <Member Name="SendStatus" Datatype="SInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="NewMessageReceived" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="Error" Datatype="&quot;UDT_Error&quot;" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="BlockName" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" /><Member Name="Error" Datatype="Bool" /><Member Name="Warning" Datatype="Bool" /><Member Name="Debug" Datatype="Bool" /><Member Name="Info" Datatype="Bool" /><Member Name="Code" Datatype="Int" /><Member Name="Description" Datatype="String[&quot;Const_PLTCP_GeneralDescription&quot;]" /></Section></Sections></Member>
+  </Section>
+  <Section Name="InOut">
+    <Member Name="UDTfromClient" Datatype="Variant" Accessibility="Public" />
+  </Section>
+  <Section Name="Static">
+    <Member Name="MessageConstructor_Single" Datatype="&quot;MessageConstructor_Single_1&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Enable" Datatype="Bool" /><Member Name="UDT" Datatype="Variant" /><Member Name="Number" Datatype="UInt" /><Member Name="Version" Datatype="UInt" /><Member Name="ExpectedUDTnumber" Datatype="UInt" /><Member Name="ExpectedUDTrev" Datatype="UInt" /><Member Name="inpTCPConnected" Datatype="Bool" /><Member Name="inpTCPSendBusy" Datatype="Bool" /><Member Name="Trigger" Datatype="Bool" /><Member Name="SendDone" Datatype="Bool" /><Member Name="ConfigType" Datatype="SInt" /><Member Name="TriggerOnly" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Errors" Datatype="&quot;UDT_Error&quot;"><Sections><Section Name="None"><Member Name="BlockName" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" /><Member Name="Error" Datatype="Bool" /><Member Name="Warning" Datatype="Bool" /><Member Name="Debug" Datatype="Bool" /><Member Name="Info" Datatype="Bool" /><Member Name="Code" Datatype="Int" /><Member Name="Description" Datatype="String[&quot;Const_PLTCP_GeneralDescription&quot;]" /></Section></Sections></Member><Member Name="LastSendTxt" Datatype="ULInt" /><Member Name="SendStatus" Datatype="SInt" /></Section><Section Name="InOut"><Member Name="SendArray" Datatype="Variant" /><Member Name="SendLength" Datatype="UDInt" /><Member Name="SendTxt" Datatype="ULInt" /><Member Name="inpClientRequest" Datatype="&quot;UDT_ClientRequest&quot;"><Sections><Section Name="None" /></Sections></Member><Member Name="Subscriptions" Datatype="Array[0..50] of Struct"><Member Name="UDTnumber" Datatype="UInt" /><Member Name="ClientRcvTxt" Datatype="ULInt" /></Member><Member Name="SubscribeAcknowledged" Datatype="Bool" /></Section><Section Name="Static"><Member Name="LastValue" Datatype="Array[0..&quot;Const_PLTCP_UDTMaxSize&quot;] of Byte" /><Member Name="Subscribe" Datatype="Bool" /><Member Name="LastSendTxtFromSC" Datatype="ULInt" /><Member Name="AcknowledgeTime" Datatype="TON_TIME" Version="1.0"><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member><Member Name="Connected" Datatype="R_TRIG" Version="1.0"><Sections><Section Name="Input"><Member Name="CLK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Stat_Bit" Datatype="Bool" /></Section></Sections></Member><Member Name="TiggerON" Datatype="R_TRIG" Version="1.0"><Sections><Section Name="Input"><Member Name="CLK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Stat_Bit" Datatype="Bool" /></Section></Sections></Member><Member Name="Enabled" Datatype="R_TRIG" Version="1.0"><Sections><Section Name="Input"><Member Name="CLK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Stat_Bit" Datatype="Bool" /></Section></Sections></Member><Member Name="SCackNotReceived" Datatype="Bool" /><Member Name="Handshake" Datatype="&quot;UDT_ClientRequest&quot;"><Sections><Section Name="None"><Member Name="UDT_Number" Datatype="UInt" /><Member Name="UDT_Revision" Datatype="UInt" /><Member Name="UniqueID" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" /><Member Name="SendTxt" Datatype="ULInt" /><Member Name="RcvTxt" Datatype="ULInt" /><Member Name="ExpectedUDT" Datatype="&quot;UDT_Expected&quot;"><Sections><Section Name="None"><Member Name="UDT_Number" Datatype="UInt" /><Member Name="UDT_Revision" Datatype="UInt" /><Member Name="Operation" Datatype="UInt" /></Section></Sections></Member></Section></Sections></Member><Member Name="SendTimerON" Datatype="Bool" /><Member Name="ReadyToSend" Datatype="R_TRIG" Version="1.0"><Sections><Section Name="Input"><Member Name="CLK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Stat_Bit" Datatype="Bool" /></Section></Sections></Member><Member Name="NumberOfSendRequests" Datatype="Int" /></Section></Sections></Member>
+    <Member Name="DestructorWhileLoopTime" Datatype="LTime" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="MessageConstructorUDT5_Single" Datatype="&quot;MessageConstructorUDT5_Single_2&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="Enable" Datatype="Bool" /><Member Name="inpTCPConnected" Datatype="Bool" /><Member Name="inpTCPSendBusy" Datatype="Bool" /><Member Name="SendDone" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Errors" Datatype="&quot;UDT_Error&quot;"><Sections><Section Name="None"><Member Name="BlockName" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" /><Member Name="Error" Datatype="Bool" /><Member Name="Warning" Datatype="Bool" /><Member Name="Debug" Datatype="Bool" /><Member Name="Info" Datatype="Bool" /><Member Name="Code" Datatype="Int" /><Member Name="Description" Datatype="String[&quot;Const_PLTCP_GeneralDescription&quot;]" /></Section></Sections></Member><Member Name="LastSendTxt" Datatype="ULInt" /></Section><Section Name="InOut"><Member Name="SendArray" Datatype="Variant" /><Member Name="SendLength" Datatype="UDInt" /><Member Name="SendTxt" Datatype="ULInt" /><Member Name="inpClientRequest" Datatype="&quot;UDT_ClientRequest&quot;"><Sections><Section Name="None" /></Sections></Member><Member Name="SubscribeAcknowledged" Datatype="Bool" /></Section><Section Name="Static"><Member Name="LastSendTxtFromSC" Datatype="ULInt" /><Member Name="Connected" Datatype="R_TRIG" Version="1.0"><Sections><Section Name="Input"><Member Name="CLK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Stat_Bit" Datatype="Bool" /></Section></Sections></Member><Member Name="Enabled" Datatype="R_TRIG" Version="1.0"><Sections><Section Name="Input"><Member Name="CLK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Stat_Bit" Datatype="Bool" /></Section></Sections></Member><Member Name="Handshake" Datatype="&quot;UDT_ClientRequest&quot;"><Sections><Section Name="None"><Member Name="UDT_Number" Datatype="UInt" /><Member Name="UDT_Revision" Datatype="UInt" /><Member Name="UniqueID" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" /><Member Name="SendTxt" Datatype="ULInt" /><Member Name="RcvTxt" Datatype="ULInt" /><Member Name="ExpectedUDT" Datatype="&quot;UDT_Expected&quot;"><Sections><Section Name="None"><Member Name="UDT_Number" Datatype="UInt" /><Member Name="UDT_Revision" Datatype="UInt" /><Member Name="Operation" Datatype="UInt" /></Section></Sections></Member></Section></Sections></Member></Section></Sections></Member>
+    <Member Name="ClientRequest" Datatype="&quot;UDT_ClientRequest&quot;" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="UDT_Number" Datatype="UInt" /><Member Name="UDT_Revision" Datatype="UInt" /><Member Name="UniqueID" Datatype="String[&quot;Const_PLTCP_UniqueIDSize&quot;]" /><Member Name="SendTxt" Datatype="ULInt" /><Member Name="RcvTxt" Datatype="ULInt" /><Member Name="ExpectedUDT" Datatype="&quot;UDT_Expected&quot;"><Sections><Section Name="None"><Member Name="UDT_Number" Datatype="UInt" /><Member Name="UDT_Revision" Datatype="UInt" /><Member Name="Operation" Datatype="UInt" /></Section></Sections></Member></Section></Sections></Member>
+    <Member Name="Ons" Datatype="Array[0..10] of Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SubscribeAcknowledged" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+  </Section>
+</Sections></Interface>
+      <Name>ST00325_PLTCP_SA_UDT2100_IDB</Name>
+      <Number>610</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>
